@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Portfolio = styled.section`
   width: 100%;
-  margin: 11.75rem 0;
+  margin: calc(11.75rem - 4rem) 0;
   position: relative;
 
   .container {
@@ -20,6 +20,7 @@ export const PortfolioHeader = styled.div`
 export const PortfolioBottom = styled.div`
   margin-top: 3rem;
   text-align: center;
+  padding-bottom: 4rem;
 `
 
 export const PortfolioContainer = styled.div`
