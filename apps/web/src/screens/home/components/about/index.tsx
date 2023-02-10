@@ -1,5 +1,6 @@
 import { Col, Container, Row } from 'react-bootstrap'
 import { Text, Title } from '~/components/atoms'
+import Card from './card'
 import * as S from './styles'
 
 export default function About() {
@@ -22,6 +23,26 @@ export default function About() {
                 sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
               </Text>
             </S.Head>
+          </Col>
+        </Row>
+        <Row className="gy-4">
+          <Col lg={4}>
+            <Card />
+          </Col>
+          <Col lg={4}>
+            <Card />
+          </Col>
+          <Col lg={4}>
+            <Card />
+          </Col>
+          <Col lg={4}>
+            <Card />
+          </Col>
+          <Col lg={4}>
+            <Card />
+          </Col>
+          <Col lg={4}>
+            <Card />
           </Col>
         </Row>
       </Container>
