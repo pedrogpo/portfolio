@@ -4,6 +4,7 @@ export const defaultTheme = {
     background_800: 'rgba(18, 19, 23, 1)',
     background_800_08: 'rgba(18, 19, 23, 0.80)',
     background_700: 'rgba(20, 21, 26, 1)',
+    background_700_08: 'rgba(20, 21, 26, 0.50)',
     background_600: 'rgba(21, 22, 27, 1)',
     background_500: 'rgba(26, 27, 33, 1)',
     red_500: 'rgba(245, 20, 70, 1)',

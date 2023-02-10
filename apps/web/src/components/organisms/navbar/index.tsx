@@ -46,7 +46,7 @@ export default function Header() {
               <Text size="m" weight="medium" color="gray_100">
                 PT/BR
               </Text>
-              <Image src="/flags/br.svg" width={45} height={31} alt="Brasil Flag" />
+              <Image src="/flags/br.svg" width={40} height={26} alt="Brasil Flag" />
             </S.LanguageSelector>
             <Nav className="gap-3 align-items-lg-center align-items-start">
               <Link href="#product" className="nav-link active" scroll={false}>

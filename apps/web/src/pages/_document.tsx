@@ -26,7 +26,7 @@ export default class Website extends Document {
     return (
       <Html>
         <Head>
-          <link rel="shortcut icon" href="icons/favicon.ico" />
+          <link rel="shortcut icon" href="favicon.ico" />
         </Head>
         <body>
           <Main />

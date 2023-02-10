@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const About = styled.section`
   width: 100%;
-  margin-bottom: 6.25rem;
+  margin-bottom: 11.25rem;
   position: relative;
   z-index: 2;
 `
