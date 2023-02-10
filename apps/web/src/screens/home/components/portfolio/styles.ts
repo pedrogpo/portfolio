@@ -4,11 +4,17 @@ export const Portfolio = styled.section`
   width: 100%;
   margin: 11.75rem 0;
   position: relative;
+
+  .container {
+    overflow-x: hidden;
+  }
 `
 
 export const PortfolioHeader = styled.div`
   text-align: center;
   margin-bottom: 5rem;
+  position: relative;
+  z-index: 1;
 `
 
 export const PortfolioBottom = styled.div`
@@ -58,6 +64,9 @@ export const PortfolioUnderlayLeft = styled.div`
   position: absolute;
   left: 0;
   top: -87px;
+  img {
+    width: 100%;
+  }
 `
 
 export const PortfolioUnderlayRight = styled.div`
@@ -65,4 +74,7 @@ export const PortfolioUnderlayRight = styled.div`
   right: 0;
   top: -87px;
   transform: scaleX(-1);
+  img {
+    width: 100%;
+  }
 `

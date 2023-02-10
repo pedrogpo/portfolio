@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Feedbacks = styled.div`
+export const Feedbacks = styled.section`
   width: 100%;
   position: relative;
   z-index: 1;
