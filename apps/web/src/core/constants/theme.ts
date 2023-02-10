@@ -6,6 +6,7 @@ export const defaultTheme = {
     background_700: 'rgba(20, 21, 26, 1)',
     background_600: 'rgba(21, 22, 27, 1)',
     background_500: 'rgba(26, 27, 33, 1)',
+    red_500: 'rgba(245, 20, 70, 1)',
     primary_500: 'rgba(73, 124, 255, 1)',
     primary_600: 'rgba(99, 143, 255, 1)',
     primary_800: 'rgba(21, 28, 46, 1)',
