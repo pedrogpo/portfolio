@@ -1,4 +1,5 @@
 import { Header } from '~/components/organisms'
+import About from './components/about'
 import Hero from './components/hero'
 
 export default function HomeScreen({ analytics }: any) {
@@ -7,6 +8,7 @@ export default function HomeScreen({ analytics }: any) {
     <>
       <Header />
       <Hero />
+      <About />
     </>
   )
 }
