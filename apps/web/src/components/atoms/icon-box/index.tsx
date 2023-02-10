@@ -7,7 +7,7 @@ export const IconBox = styled.div`
   padding: 0.75rem;
   width: 60px;
   height: 60px;
-  background: ${({ theme }) => theme.colors.primary_300};
+  background: ${({ theme }) => theme.colors.primary_400};
   border-radius: 7px;
   color: ${({ theme }) => theme.colors.primary_500};
 
