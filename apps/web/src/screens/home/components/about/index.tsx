@@ -73,7 +73,7 @@ export default function About() {
                   achieve your goals.
                 </Text>
               </S.ContactCardHead>
-              <Button padding=".5rem 1rem" size="s" weight="semibold">
+              <Button boxShadow padding=".5rem 1rem" size="s" weight="semibold">
                 Contact me
               </Button>
             </S.ContactCard>

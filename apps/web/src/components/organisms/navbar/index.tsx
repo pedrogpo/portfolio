@@ -63,7 +63,7 @@ export default function Header() {
               </Link>
             </Nav>
             <div className="d-flex flex-wrap gap-3 mt-md-0 mt-3">
-              <Button>Get in touch</Button>
+              <Button boxShadow>Get in touch</Button>
             </div>
           </Navbar.Collapse>
         </Navbar>

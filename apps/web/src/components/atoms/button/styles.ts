@@ -60,7 +60,12 @@ export const ButtonContainer = styled.button<ButtonProps>`
   ${({ boxShadow }) =>
     boxShadow &&
     css`
-      box-shadow: 0px 0px 30px rgba(130, 87, 229, 0.2);
+      box-shadow: 0px 0px 5px rgba(73, 124, 255, 0.15), 0px 0px 40px rgba(0, 0, 0, 0.5),
+        0px 0px 50px rgba(73, 124, 255, 0.5);
+      &:hover {
+        box-shadow: 0px 0px 7px rgba(73, 124, 255, 0.2), 0px 0px 40px rgba(0, 0, 0, 0.5),
+          0px 0px 60px rgba(73, 124, 255, 0.55);
+      }
     `}
 
   border-radius: 7px;
