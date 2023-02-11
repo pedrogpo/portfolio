@@ -38,7 +38,13 @@ export default function Hero() {
         </Row>
       </Container>
       <S.FloatingUnderlay>
-        <Image src="/hero/underlay.png" alt="Underlay blur" width={1008} height={1619} />
+        <Image
+          src="/hero/underlay.png"
+          loading="lazy"
+          alt="Underlay blur"
+          width={1008}
+          height={1619}
+        />
       </S.FloatingUnderlay>
       <S.ImageUnderlay>
         <Image
