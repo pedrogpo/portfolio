@@ -15,7 +15,7 @@ export default function Feedbacks() {
         </Title>
       </S.FeedbacksHead>
       <Container>
-        <Row>
+        <Row className="gy-4">
           <Col lg={4}>
             <Card />
           </Col>
