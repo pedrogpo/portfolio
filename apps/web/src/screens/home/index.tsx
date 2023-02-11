@@ -6,7 +6,7 @@ import Hero from './components/hero'
 import Portfolio from './components/portfolio'
 import Stats from './components/stats'
 
-export default function HomeScreen({ analytics }: any) {
+export default function HomeScreen({}: any) {
   return (
     // TODO: It should has a default layout
     <>

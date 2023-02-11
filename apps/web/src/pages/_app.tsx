@@ -7,11 +7,15 @@ import { defaultTheme } from '../core/constants/theme'
 
 import GlobalStyle from '~/styles/global'
 
-export default function Ploow({ Component, pageProps }: AppProps) {
+import { appWithTranslation } from 'next-i18next'
+
+function Portfolio({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={defaultTheme}>
-      <GlobalStyle/>
+      <GlobalStyle />
       <Component {...pageProps} />
     </ThemeProvider>
   )
 }
+
+export default appWithTranslation(Portfolio)

@@ -1,0 +1,61 @@
+{
+  "navbar":{
+    "links":[
+      {"name":"Início", "url":"#"},
+      {"name":"Serviços", "url":"#"},
+      {"name":"Portfólio", "url":"#"},
+      {"name":"Feedbacks", "url":"#"}
+    ],
+    "button": "Entre em contato"
+  },
+  "hero":{
+    "toptitle": "Me chamo Pedro Guilherme",
+    "title": "Vamos tirar sua ideia do papel?",
+    "subtitle": "Transforme suas ideias em realidade comigo! Como profissional qualificado, estou aqui para ajudá-lo a criar a experiência perfeita para o seu projeto. Deixe-me tirar sua ideia do papel e transformá-la em realidade.",
+    "button": "Sobre mim",
+    "buttontext": "Entre em contato"
+  },
+  "about":{
+    "title": "Como posso ajudar no seu projeto?",
+    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+    "cards":[
+      {
+        "title": "Desenvolvedor web",
+        "description": "Utilizo as últimas tecnologias e metodologias de desenvolvimento para transformar suas ideias e designs em aplicativos da web dinâmicos e amigáveis ao usuário. Comprometo-me a oferecer resultados de alta qualidade que superam suas expectativas e geram resultados reais para o seu negócio."      },
+      {
+        "title": "UI/UX Designer",
+        "description": "Ajudo a dar vida ao design centrado no usuário, criando interfaces esteticamente agradáveis e altamente funcionais. Possuo um profundo conhecimento dos princípios de design, pesquisa de usuários e ferramentas de prototipagem para garantir que seu projeto seja visualmente atraente e amigável ao usuário."      },
+      {
+        "title": "Desenvolvedor de software",
+        "description": "Transformo suas ideias em realidade construindo softwares personalizados que atendem às suas necessidades únicas. Possuo experiência em várias linguagens de programação e metodologias de desenvolvimento e posso ajudá-lo a projetar, construir e lançar um produto de software que exceda suas expectativas."      },
+      {
+        "title": "Estratégias de Business",
+        "description": "Eleve o seu negócio a novos patamares com minha abordagem estratégica para gestão e planejamento. Posso ajudá-lo a identificar oportunidades de crescimento, otimizar processos e desenvolver soluções inovadoras para impulsionar o sucesso e alcançar seus objetivos empresariais."      },
+      {
+        "title": "Otimização de Busca (SEO)",
+        "description": "Leve sua presença online ao próximo nível com minhas estratégias de SEO. Sou especializado em utilizar pesquisa de palavras-chave, otimização de conteúdo e link building para aumentar o tráfego orgânico e aumentar sua visibilidade, ajudando-o a alcançar e se conectar com seu público-alvo."      }
+    ],
+    "contact":{
+      "title": "Interessado em trabalharmos juntos?",
+      "subtitle": "Vamos falar sobre o seu projeto ou ideia e descobrir como posso ajudá-lo a alcançar seus objetivos.",
+      "button": "Fale comigo"
+    }
+  },
+  "stats": {
+    "title": "Confira algumas das minhas estatísticas.",
+    "items": [
+      {
+        "title": "Anos de experiência",
+        "number": "5+"
+      },
+      {
+        "title": "Linhas de código",
+        "number": "5000+"
+      },
+      {
+        "title": "Copos de energético",
+        "number": "234+"
+      }
+    ]
+  }
+}

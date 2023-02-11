@@ -40,6 +40,7 @@ export const Card = styled.div`
   background: ${({ theme }) => theme.colors.background_800};
   box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
+  height: 100%;
 
   transition: all 0.3s ease-in-out;
 

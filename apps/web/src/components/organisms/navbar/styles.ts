@@ -59,6 +59,8 @@ export const Header = styled.header`
 `
 
 export const LanguageSelector = styled.div`
+  cursor: pointer;
+
   position: relative;
 
   display: flex;

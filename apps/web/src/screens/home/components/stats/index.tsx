@@ -1,8 +1,11 @@
 import { Container } from 'react-bootstrap'
 import { Text, Title } from '~/components/atoms'
 import * as S from './styles'
+import { useTranslation } from 'next-i18next'
 
 export default function Stats() {
+  const { t } = useTranslation('common')
+
   return (
     <S.Stats>
       <Container>
@@ -12,7 +15,7 @@ export default function Stats() {
               Lorem ipsum
             </Text>
             <Title size="s" weight="bold" color="gray_100">
-              Check out some of my stats.
+              {t('stats.title')}
             </Title>
             <Text size="xl" weight="medium" color="gray_400">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
@@ -22,26 +25,26 @@ export default function Stats() {
           <S.Body>
             <S.Stat>
               <Title size="l" weight="black" color="gray_100">
-                5+
+                {t('stats.items.0.number')}
               </Title>
               <Text size="xl" weight="medium" color="gray_400">
-                Years of experience
+                {t('stats.items.0.title')}
               </Text>
             </S.Stat>
             <S.Stat>
               <Title size="l" weight="black" color="gray_100">
-                5000+
+                {t('stats.items.1.number')}
               </Title>
               <Text size="xl" weight="medium" color="gray_400">
-                Code lines
+                {t('stats.items.1.title')}
               </Text>
             </S.Stat>
             <S.Stat>
               <Title size="l" weight="black" color="gray_100">
-                5+
+                {t('stats.items.2.number')}
               </Title>
               <Text size="xl" weight="medium" color="gray_400">
-                Years of experience
+                {t('stats.items.2.title')}
               </Text>
             </S.Stat>
           </S.Body>

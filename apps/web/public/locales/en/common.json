@@ -1,0 +1,66 @@
+{
+  "navbar":{
+    "links":[
+      {"name":"Home", "url":"#"},
+      {"name":"Services", "url":"#"},
+      {"name":"Portfolio", "url":"#"},
+      {"name":"Feedbacks", "url":"#"}
+    ],
+    "button": "Get in Touch"
+  },
+  "hero":{
+    "toptitle": "I'm Pedro Guilherme",
+    "title": "Let's get your idea off the drawing board?",
+    "subtitle": "Bring your ideas to life with me! As a skilled professional, I'm here to help you create the perfect experience for your project. Let me take your idea off the drawing board and make it a reality.",
+    "button": "About me",
+    "buttontext": "Get in touch"
+  },
+  "about":{
+    "title": "How can I help with your project?",
+    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+    "cards":[
+      {
+        "title": "Web Developer",
+        "description": "I utilize the latest technologies and development methodologies to bring your ideas and designs to life in the form of dynamic and user-friendly web applications. I am committed to delivering high-quality results that exceed your expectations and drive real results for your business."
+      },
+      {
+        "title": "UI/UX Designer",
+        "description": "I help bring user-centered design to life by creating interfaces that are both aesthetically pleasing and highly functional. I have a deep understanding of design principles, user research, and prototyping tools to ensure that your project is both visually appealing and user-friendly."
+      },
+      {
+        "title": "Software developer",
+        "description": "I bring your ideas to life by building custom software applications that meet your unique needs. I have experience in multiple programming languages and development methodologies, and I can help you design, build, and launch a software product that exceeds your expectations."
+      },
+      {
+        "title": "Business Strategies/Management",
+        "description": "Elevate your business to new heights with my strategic approach to management and planning. I can help you identify growth opportunities, streamline processes, and develop innovative solutions to drive success and achieve your business goals."
+      },
+      {
+        "title": "Search Engine Optimization (SEO)",
+        "description": "Take your online presence to the next level with my expert SEO strategies. I specialize in utilizing keyword research, content optimization, and link building to drive organic traffic and increase your visibility, helping you reach and connect with your target audience."
+      }
+    ],
+    "contact":{
+      "title": "Interested in working together?",
+      "subtitle": "Let's talk about your project or idea and find out how I can help you achieve your goals.",
+      "button": "Contact me"
+    }
+  },
+  "stats": {
+    "title": "Check out some of my stats.",
+    "items": [
+      {
+        "title": "Years of experience",
+        "number": "5+"
+      },
+      {
+        "title": "Code lines",
+        "number": "5000+"
+      },
+      {
+        "title": "Energy drink cups",
+        "number": "234+"
+      }
+    ]
+  }
+}

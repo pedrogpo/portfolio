@@ -3,8 +3,10 @@ import Image from 'next/image'
 import { Col, Container, Row } from 'react-bootstrap'
 import { Button, Text, Title } from '~/components/atoms'
 import * as S from './styles'
+import { useTranslation } from 'next-i18next'
 
 export default function Hero() {
+  const { t } = useTranslation('common')
   return (
     <S.Hero>
       <Container>
@@ -12,21 +14,19 @@ export default function Hero() {
           <Col lg={6}>
             <S.Content>
               <Title as="h4" size="xs" weight="medium" color="gray_300">
-                I'm Pedro Guilherme
+                {t('hero.toptitle')}
               </Title>
               <Title size="l" weight="bold" color="gray_100">
-                Let's get your idea off the drawing board?
+                {t('hero.title')}
               </Title>
               <Text size="l" weight="medium" color="gray_400">
-                Bring your ideas to life with me! As a skilled professional, I'm here to
-                help you create the perfect experience for your project. Let me take your
-                idea off the drawing board and make it a reality.
+                {t('hero.subtitle')}
               </Text>
               <Button className="me-4" size="m" weight="bold" padding=".85rem 2rem">
-                About me
+                {t('hero.button')}
               </Button>
               <Text as="span" weight="medium" size="m" color="gray_300">
-                Get in touch
+                {t('hero.buttontext')}
               </Text>
             </S.Content>
           </Col>
