@@ -12,7 +12,7 @@ export default function Portfolio() {
     <S.Portfolio>
       <Container>
         <S.PortfolioHeader>
-          <Title size="l" weight="bold" color="gray_100">
+          <Title as="h2" size="l" weight="bold" color="gray_100">
             Portfolio
           </Title>
           <Text size="xl" weight="medium" color="gray_400">
@@ -26,15 +26,15 @@ export default function Portfolio() {
                 <Col lg={6}>
                   <S.PortfolioContainerContent>
                     <S.PortfolioContainerHead>
-                      <Title size="l" weight="bold" color="gray_100">
+                      <Title as="h3" size="l" weight="bold" color="gray_100">
                         Ploow store
                       </Title>
-                      <Title size="xs" weight="medium" color="gray_400">
+                      <Text size="xl" weight="medium" color="gray_400">
                         Front end/Back-end of the new website
-                      </Title>
+                      </Text>
                     </S.PortfolioContainerHead>
                     <S.PortfolioContainerBody>
-                      <Title size="xs" weight="medium" color="gray_100">
+                      <Title as="h4" size="xs" weight="medium" color="gray_100">
                         Tech's that I used:
                       </Title>
                       <Text size="xl" weight="medium" color="gray_400">

@@ -20,7 +20,7 @@ export default function About() {
         <Row>
           <Col>
             <S.Head>
-              <Title size="l" weight="bold" color="gray_100">
+              <Title as="h2" size="l" weight="bold" color="gray_100">
                 {textWithoutFinalWord}
                 <Text as="span" color="primary_500">
                   {lastWord}
@@ -72,7 +72,7 @@ export default function About() {
           <Col lg={4} md={6}>
             <S.ContactCard>
               <S.ContactCardHead>
-                <Title size="xs" weight="bold" color="gray_100">
+                <Title as="h3" size="xs" weight="bold" color="gray_100">
                   {t('about.contact.title')}
                 </Title>
                 <Text size="s" weight="medium" color="gray_400">

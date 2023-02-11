@@ -1,5 +1,5 @@
 import { Col, Container, Row } from 'react-bootstrap'
-import { Button, Title } from '~/components/atoms'
+import { Button, Text, Title } from '~/components/atoms'
 import Card from './card'
 import * as S from './styles'
 
@@ -7,12 +7,12 @@ export default function Feedbacks() {
   return (
     <S.Feedbacks>
       <S.FeedbacksHead>
-        <Title size="l" weight="bold" color="gray_100">
+        <Title as="h2" size="l" weight="bold" color="gray_100">
           My last feedbacks
         </Title>
-        <Title size="xs" weight="medium" color="gray_400">
+        <Text size="xl" weight="medium" color="gray_400">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </Title>
+        </Text>
       </S.FeedbacksHead>
       <Container>
         <Row className="gy-4">

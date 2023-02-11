@@ -11,7 +11,7 @@ export default function Card() {
           <Image src="/icons/user.svg" width={22} height={23} alt="Joao Guilherme user" />
         </S.UserIcon>
         <S.Content>
-          <Text size="xl" weight="bold" color="gray_100">
+          <Text as="h3" size="xl" weight="bold" color="gray_100">
             João Guilherme
           </Text>
           <S.Stars>
