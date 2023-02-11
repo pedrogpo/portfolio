@@ -12,7 +12,7 @@ export const Header = styled.header`
 
   padding-top: 3.5rem;
 
-  .nav-link {
+  .nav-link a {
     color: ${({ theme }) => theme.colors.gray_400};
     font-weight: ${({ theme }) => theme.typography.weight.medium}!important;
     font-size: ${({ theme }) => theme.typography.text.m} !important;
@@ -58,7 +58,9 @@ export const Header = styled.header`
   transition: 0.6s ease padding;
 `
 
-export const LanguageSelector = styled.div`
+export const LanguageSelector = styled.button`
+  background-color: transparent;
+  border: none;
   cursor: pointer;
 
   position: relative;

@@ -7,6 +7,7 @@ import Hero from './components/hero'
 import Portfolio from './components/portfolio'
 import Stats from './components/stats'
 import { useTranslation } from 'next-i18next'
+import Footer from '~/components/organisms/footer'
 
 export default function HomeScreen({}: any) {
   const seo_fallback = {
@@ -49,6 +50,7 @@ export default function HomeScreen({}: any) {
       <Portfolio />
       <Feedbacks />
       <Contact />
+      <Footer />
     </>
   )
 }

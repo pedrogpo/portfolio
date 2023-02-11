@@ -73,19 +73,27 @@ export default function Header() {
                 )}
               </S.LanguageSelector>
             </Link>
-            <Nav className="gap-3 align-items-lg-center align-items-start">
-              <Link href="#hero" className="nav-link active" scroll={false}>
-                {t('navbar.links.0.name')}
-              </Link>
-              <Link href="#services" className="nav-link" scroll={false}>
-                {t('navbar.links.1.name')}
-              </Link>
-              <Link href="#portfolio" className="nav-link" scroll={false}>
-                {t('navbar.links.2.name')}
-              </Link>
-              <Link href="#feedbacks" className="nav-link" scroll={false}>
-                {t('navbar.links.3.name')}
-              </Link>
+            <Nav as="ul" className="gap-3 align-items-lg-center align-items-start">
+              <li className="nav-link active">
+                <Link href="#hero" scroll={false}>
+                  {t('navbar.links.0.name')}
+                </Link>
+              </li>
+              <li className="nav-link active">
+                <Link href="#services" className="nav-link" scroll={false}>
+                  {t('navbar.links.1.name')}
+                </Link>
+              </li>
+              <li className="nav-link active">
+                <Link href="#portfolio" className="nav-link" scroll={false}>
+                  {t('navbar.links.2.name')}
+                </Link>
+              </li>
+              <li className="nav-link active">
+                <Link href="#feedbacks" className="nav-link" scroll={false}>
+                  {t('navbar.links.3.name')}
+                </Link>
+              </li>
             </Nav>
             <div className="d-flex flex-wrap gap-3 mt-md-0 mt-3">
               <Button boxShadow>{t('navbar.button')}</Button>
