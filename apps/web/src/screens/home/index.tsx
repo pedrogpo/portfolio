@@ -1,6 +1,7 @@
 import { NextSeo } from 'next-seo'
 import { Header } from '~/components/organisms'
 import About from './components/about'
+import Contact from './components/contact'
 import Feedbacks from './components/feedbacks'
 import Hero from './components/hero'
 import Portfolio from './components/portfolio'
@@ -38,6 +39,7 @@ export default function HomeScreen({}: any) {
       <Stats />
       <Portfolio />
       <Feedbacks />
+      <Contact />
     </>
   )
 }

@@ -25,7 +25,7 @@ export default function Portfolio() {
                 <Col lg={6}>
                   <S.PortfolioContainerContent>
                     <S.PortfolioContainerHead>
-                      <Title size="l" weight="semibold" color="gray_100">
+                      <Title size="l" weight="bold" color="gray_100">
                         Ploow store
                       </Title>
                       <Title size="xs" weight="medium" color="gray_400">

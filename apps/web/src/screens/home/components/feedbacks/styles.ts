@@ -8,7 +8,7 @@ export const Feedbacks = styled.section`
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(25px);
   padding: 6rem 0;
-  margin-bottom: 15.5rem;
+  margin-bottom: 12.5rem;
 `
 
 export const FeedbacksHead = styled.div`
