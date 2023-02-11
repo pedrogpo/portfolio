@@ -44,6 +44,7 @@ export default function Hero() {
           alt="Underlay blur"
           width={1008}
           height={1619}
+          quality={45}
         />
       </S.FloatingUnderlay>
       <S.ImageUnderlay>
@@ -52,6 +53,7 @@ export default function Hero() {
           alt="Image Underlay blur"
           width={1373}
           height={1209}
+          quality={45}
         />
       </S.ImageUnderlay>
     </S.Hero>
