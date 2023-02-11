@@ -52,6 +52,10 @@ export const FloatingUnderlay = styled.div`
   position: absolute;
   height: 100%;
   right: 0;
+
+  @media screen and (max-width: 768px) {
+    opacity: 0.35;
+  }
 `
 
 export const ImageUnderlay = styled.div`
