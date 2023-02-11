@@ -12,6 +12,10 @@ export const ContactContainer = styled.div`
   position: relative;
 
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+  @media screen and (max-width: 768px) {
+    padding: 3rem 2.5rem;
+  }
 `
 
 export const ContactContent = styled.div`

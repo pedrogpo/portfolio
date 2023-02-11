@@ -30,6 +30,10 @@ export const PortfolioContainer = styled.div`
   padding: 4rem;
   border-top: 1px solid rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(10px);
+
+  @media screen and (max-width: 768px) {
+    padding: 3rem 2.5rem;
+  }
 `
 
 export const PortfolioContainerContent = styled.div``
