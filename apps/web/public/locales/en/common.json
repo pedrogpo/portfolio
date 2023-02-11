@@ -1,4 +1,9 @@
 {
+  "seo": {
+    "title":"Pedro Guilherme - Developer, UI/UX Designer & Business/SEO Strategist",
+    "description":"Boost your online presence with a multi-talented web developer, UI/UX designer, and software developer who can provide top-notch business strategies and SEO improvements.",
+    "canonical":"https://www.pedrogui.com/"
+  },
   "navbar":{
     "links":[
       {"name":"Home", "url":"#"},

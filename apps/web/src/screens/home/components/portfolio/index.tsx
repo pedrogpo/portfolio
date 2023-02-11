@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from 'next/image'
+import Link from 'next/link'
 import { Col, Container, Row } from 'react-bootstrap'
 import { SwiperSlide } from 'swiper/react'
 import { Button, Text, Title } from '~/components/atoms'
@@ -43,9 +44,15 @@ export default function Portfolio() {
                         and others...
                       </Text>
                     </S.PortfolioContainerBody>
-                    <Button boxShadow size="l" weight="bold" padding=".75rem 2rem">
-                      Take a look
-                    </Button>
+                    <a
+                      href="https://ploow-dev.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Button boxShadow size="l" weight="bold" padding=".75rem 2rem">
+                        Take a look
+                      </Button>
+                    </a>
                   </S.PortfolioContainerContent>
                 </Col>
                 <Col lg={6}>
