@@ -14,7 +14,7 @@
     "button": "Entre em contato"
   },
   "hero":{
-    "toptitle": "Me chamo Pedro Guilherme",
+    "top_title": "Me chamo Pedro Guilherme",
     "title": "Vamos tirar sua ideia do papel?",
     "subtitle": "Transforme suas ideias em realidade comigo! Como profissional qualificado, estou aqui para ajudá-lo a criar a experiência perfeita para o seu projeto. Deixe-me tirar sua ideia do papel e transformá-la em realidade.",
     "button": "Sobre mim",
@@ -47,7 +47,7 @@
     }
   },
   "stats": {
-    "toptitle": "Sobre mim",
+    "top_title": "Sobre mim",
     "title": "Confira algumas das minhas estatísticas.",
     "subtitle": "Saiba um pouco mais sobre mim com essas estatísticas.",
     "items": [
@@ -160,5 +160,11 @@
         ]
       }
     ]
+  },
+  "contact":{
+    "top_title": "Vamos fazer um projeto juntos?",
+    "title": "Entre em contato comigo",
+    "subtitle": "Tô sempre aberto para novas mensagens. Se você tiver uma dúvida, uma ideia de projeto, me envie uma mensagem!",
+    "button": "Entre em contato"
   }
 }

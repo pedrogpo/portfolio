@@ -29,7 +29,7 @@ export default function Feedbacks() {
       </Container>
       <S.FeedbacksBottom>
         <Button boxShadow size="xl" weight="bold" padding=".85rem 2rem">
-          Get in touch
+          {t('feedbacks.button')}
         </Button>
       </S.FeedbacksBottom>
     </S.Feedbacks>

@@ -54,8 +54,8 @@ export default function Carousel({
         navigation={navigation}
         autoplay={{
           delay: autoPlayDelay,
-          pauseOnMouseEnter: false,
-          disableOnInteraction: false,
+          pauseOnMouseEnter: true,
+          disableOnInteraction: true,
         }}
       >
         {children}

@@ -14,7 +14,7 @@ export default function Stats() {
         <S.Content>
           <S.Head>
             <Text size="xl" weight="medium" color="gray_400">
-              {t('stats.toptitle')}
+              {t('stats.top_title')}
             </Text>
             <Title as="h2" size="s" weight="bold" color="gray_100">
               {t('stats.title')}

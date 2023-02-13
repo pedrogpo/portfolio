@@ -14,7 +14,7 @@ export default function Hero() {
           <Col lg={6}>
             <S.Content>
               <Title as="h4" size="xs" weight="medium" color="gray_300">
-                {t('hero.toptitle')}
+                {t('hero.top_title')}
               </Title>
               <Title size="l" weight="bold" color="gray_100">
                 {t('hero.title')}

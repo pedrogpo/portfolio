@@ -106,6 +106,11 @@ const GlobalStyle = createGlobalStyle`
     box-shadow: 0 0 0px 1000px transparent inset;
     transition: background-color 5000s ease-in-out 0s;
   }
+
+  [data-rmiz-modal-overlay="visible"] {
+    background-color: rgb(0, 0, 0, 0.4);
+    backdrop-filter: blur(30px);
+}
 `
 
 export default GlobalStyle

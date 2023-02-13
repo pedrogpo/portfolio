@@ -43,6 +43,7 @@
     "react-i18next": "^12.1.5",
     "react-icons": "^4.6.0",
     "react-lite-youtube-embed": "^2.3.52",
+    "react-medium-image-zoom": "^5.1.2",
     "react-toastify": "^9.1.1",
     "react-visibility-sensor": "^5.1.1",
     "request-ip": "^3.3.0",

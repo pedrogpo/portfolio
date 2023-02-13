@@ -25,7 +25,7 @@ export default function Portfolio() {
         </S.PortfolioHeader>
         <Carousel slidesPerView={1}>
           {items.map((item, index) => (
-            <SwiperSlide>
+            <SwiperSlide key={index}>
               <S.PortfolioContainer>
                 <Row className="gy-5">
                   <Col lg={6}>

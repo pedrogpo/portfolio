@@ -3,8 +3,11 @@ import Image from 'next/image'
 import { Col, Container, Row } from 'react-bootstrap'
 import { Button, Text, Title } from '~/components/atoms'
 import * as S from './styles'
+import { useTranslation } from 'next-i18next'
 
 export default function Contact() {
+  const { t } = useTranslation('common')
+
   return (
     <S.Contact>
       <Container>
@@ -14,18 +17,18 @@ export default function Contact() {
               <S.ContactContent>
                 <S.ContactContentBody>
                   <Title as="h2" size="xs" weight="medium" color="gray_300">
-                    Let's build something?
+                    {t('contact.top_title')}
                   </Title>
                   <Title as="h3" size="l" weight="bold" color="gray_100">
-                    Get in touch with me
+                    {t('contact.title')}
                   </Title>
                   <Text size="xl" weight="medium" color="gray_400">
-                    Send me a custom message and let's do a project together.
+                    {t('contact.subtitle')}
                   </Text>
                 </S.ContactContentBody>
                 <S.ContactContentBottom>
                   <Button padding=".85rem 2rem" size="xl" weight="bold" fill="white">
-                    Get in touch
+                    {t('contact.button')}
                   </Button>
                 </S.ContactContentBottom>
               </S.ContactContent>
