@@ -48,23 +48,13 @@ export default function Portfolio() {
                       </S.PortfolioContainerBody>
                       <a href={item.button_redirect} target="_blank" rel="noreferrer">
                         <Button boxShadow size="l" weight="bold" padding=".75rem 2rem">
-                          Take a look
+                          {item.button}
                         </Button>
                       </a>
                     </S.PortfolioContainerContent>
                   </Col>
                   <Col lg={6}>
                     <Carousel autoPlayDelay={10000} navigation={false} slidesPerView={1}>
-                      {/* <SwiperSlide>
-                        <S.PortfolioImage>
-                          <Image
-                            src="/portfolio/ploowstore/site1.png"
-                            alt="Site Ploow store 1"
-                            width={960}
-                            height={540}
-                          />
-                        </S.PortfolioImage>
-                      </SwiperSlide> */}
                       {item.images.map((image: any, index: any) => (
                         <SwiperSlide key={index}>
                           <S.PortfolioImage>
