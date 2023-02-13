@@ -1,91 +1,92 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from 'next/image'
-import Link from 'next/link'
 import { Col, Container, Row } from 'react-bootstrap'
 import { SwiperSlide } from 'swiper/react'
 import { Button, Text, Title } from '~/components/atoms'
 import { Carousel } from '~/components/molecules'
 import * as S from './styles'
+import { useTranslation } from 'next-i18next'
 
 export default function Portfolio() {
+  const { t } = useTranslation('common')
+
+  const items: any[] = t('portfolio.items', { returnObjects: true })
+
   return (
     <S.Portfolio>
       <Container>
         <S.PortfolioHeader>
           <Title as="h2" size="l" weight="bold" color="gray_100">
-            Portfolio
+            {t('portfolio.title')}
           </Title>
           <Text size="xl" weight="medium" color="gray_400">
-            Here are some of my projects, I hope you like them!
+            {t('portfolio.subtitle')}
           </Text>
         </S.PortfolioHeader>
         <Carousel slidesPerView={1}>
-          <SwiperSlide>
-            <S.PortfolioContainer>
-              <Row className="gy-5">
-                <Col lg={6}>
-                  <S.PortfolioContainerContent>
-                    <S.PortfolioContainerHead>
-                      <Title as="h3" size="l" weight="bold" color="gray_100">
-                        Ploow store
-                      </Title>
-                      <Text size="xl" weight="medium" color="gray_400">
-                        Front end/Back-end of the new website
-                      </Text>
-                    </S.PortfolioContainerHead>
-                    <S.PortfolioContainerBody>
-                      <Title as="h4" size="xs" weight="medium" color="gray_100">
-                        Tech's that I used:
-                      </Title>
-                      <Text size="xl" weight="medium" color="gray_400">
-                        Typescript, Next JS/React JS, Styled Components, Bootstrap, Radix
-                        UI, Framer Motion, Zod, React Hook Form, Axios, Swiper, JWT,
-                        Prisma, BCrypt, ISR/SSG, Google RECaptcha, Vercel, Figma, MySQL
-                        and others...
-                      </Text>
-                    </S.PortfolioContainerBody>
-                    <a
-                      href="https://ploow-dev.vercel.app/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Button boxShadow size="l" weight="bold" padding=".75rem 2rem">
-                        Take a look
-                      </Button>
-                    </a>
-                  </S.PortfolioContainerContent>
-                </Col>
-                <Col lg={6}>
-                  <Carousel autoPlayDelay={10000} navigation={false} slidesPerView={1}>
-                    <SwiperSlide>
-                      <S.PortfolioImage>
-                        <Image
-                          src="/portfolio/ploowstore/site1.png"
-                          alt="Site Ploow store 1"
-                          width={960}
-                          height={540}
-                        />
-                      </S.PortfolioImage>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <S.PortfolioImage>
-                        <Image
-                          src="/portfolio/ploowstore/site2.png"
-                          alt="Site Ploow store 2"
-                          width={960}
-                          height={540}
-                        />
-                      </S.PortfolioImage>
-                    </SwiperSlide>
-                  </Carousel>
-                </Col>
-              </Row>
-            </S.PortfolioContainer>
-          </SwiperSlide>
+          {items.map((item, index) => (
+            <SwiperSlide>
+              <S.PortfolioContainer>
+                <Row className="gy-5">
+                  <Col lg={6}>
+                    <S.PortfolioContainerContent>
+                      <S.PortfolioContainerHead>
+                        <Title as="h3" size="l" weight="bold" color="gray_100">
+                          {item.title}
+                        </Title>
+                        <Text size="xl" weight="medium" color="gray_400">
+                          {item.description}
+                        </Text>
+                      </S.PortfolioContainerHead>
+                      <S.PortfolioContainerBody>
+                        <Title as="h4" size="xs" weight="medium" color="gray_100">
+                          {t('portfolio.techs_title')}
+                        </Title>
+                        <Text size="xl" weight="medium" color="gray_400">
+                          {item.techs}
+                        </Text>
+                      </S.PortfolioContainerBody>
+                      <a href={item.button_redirect} target="_blank" rel="noreferrer">
+                        <Button boxShadow size="l" weight="bold" padding=".75rem 2rem">
+                          Take a look
+                        </Button>
+                      </a>
+                    </S.PortfolioContainerContent>
+                  </Col>
+                  <Col lg={6}>
+                    <Carousel autoPlayDelay={10000} navigation={false} slidesPerView={1}>
+                      {/* <SwiperSlide>
+                        <S.PortfolioImage>
+                          <Image
+                            src="/portfolio/ploowstore/site1.png"
+                            alt="Site Ploow store 1"
+                            width={960}
+                            height={540}
+                          />
+                        </S.PortfolioImage>
+                      </SwiperSlide> */}
+                      {item.images.map((image: any, index: any) => (
+                        <SwiperSlide key={index}>
+                          <S.PortfolioImage>
+                            <Image
+                              src={image.url}
+                              alt={image.alt}
+                              width={960}
+                              height={540}
+                            />
+                          </S.PortfolioImage>
+                        </SwiperSlide>
+                      ))}
+                    </Carousel>
+                  </Col>
+                </Row>
+              </S.PortfolioContainer>
+            </SwiperSlide>
+          ))}
         </Carousel>
         <S.PortfolioBottom>
           <Button boxShadow size="l" weight="bold" padding=".75rem 2rem">
-            See more
+            {t('portfolio.button')}
           </Button>
         </S.PortfolioBottom>
       </Container>

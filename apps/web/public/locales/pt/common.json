@@ -86,5 +86,76 @@
         "feedback": "Contratei você para desenvolver o front-end de um site de NFT para minha empresa e fiquei muito satisfeita com a sua agilidade e proatividade no trabalho. Você conseguiu entregar o front-end antes do prazo e sempre se mostrou disponível para esclarecer minhas dúvidas e fazer as alterações necessárias para atender às minhas expectativas."
       }
     ]
+  },
+  "portfolio":{
+    "title": "Portfolio",
+    "subtitle": "Confira algum dos meus últimos projetos.",
+    "button": "Entre em contato",
+    "techs_title": "Alguma das tecnologias que usei",
+    "items":[
+      {
+        "title": "Ploow Store",
+        "description":"Front end/Back do website",
+        "button": "Dê uma olhada",
+        "button_redirect": "https://ploow-dev.vercel.app",
+        "techs":"Typescript, Next JS/React JS, Styled Components, Bootstrap, Radix UI, Framer Motion, Zod, React Hook Form, Axios, Swiper, JWT, Prisma, BCrypt, ISR/SSG, Google RECaptcha, Vercel, Figma, MySQL and others...",
+        "images": [
+          {
+            "url": "/portfolio/ploowstore/site1.png"
+          },
+          {
+            "url": "/portfolio/ploowstore/site2.png"
+          }
+        ]
+      },
+      {
+        "title": "Ploow Store",
+        "description":"Desenvolvimento do software",
+        "button": "Dê uma olhada",
+        "button_redirect": "https://ploow-dev.vercel.app",
+        "techs":"C/C++, ImGui, OpenGL, Java, Java Native Interface (JNI), Websockets, Golang, Webviewers, w2s and others...",
+        "images": [
+          {
+            "url": "/portfolio/ploowstore/software.png"
+          },
+          {
+            "url": "/portfolio/ploowstore/software2.png"
+          },
+          {
+            "url": "/portfolio/ploowstore/software3.png"
+          }
+        ]
+      },
+      {
+        "title": "6Collection",
+        "description":"Development of the website (E-Commerce) & UI/UX",
+        "button": "Take a look",
+        "button_redirect": "https://dev.6collection.com.br",
+        "techs":"PHP, Bootstrap, Payment Gateways, Figma, Cinema 4D, After Effects and some other stuff.",
+        "images": [
+          {
+            "url": "/portfolio/6collection/site1.png"
+          },
+          {
+            "url": "/portfolio/6collection/site2.png"
+          }
+        ]
+      },
+      {
+        "title": "Slap",
+        "description":"Development of the website (Front/Back end) & UI/UX",
+        "button": "Take a look",
+        "button_redirect": "https://slapp.in",
+        "techs":"PHP, Bootstrap, Payment Gateways, Figma, unique systems.",
+        "images": [
+          {
+            "url": "/portfolio/slappin/site1.png"
+          },
+          {
+            "url": "/portfolio/slappin/site2.png"
+          }
+        ]
+      }
+    ]
   }
 }
