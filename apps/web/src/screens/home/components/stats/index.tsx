@@ -14,14 +14,13 @@ export default function Stats() {
         <S.Content>
           <S.Head>
             <Text size="xl" weight="medium" color="gray_400">
-              Lorem ipsum
+              {t('stats.toptitle')}
             </Text>
             <Title as="h2" size="s" weight="bold" color="gray_100">
               {t('stats.title')}
             </Title>
             <Text size="xl" weight="medium" color="gray_400">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
-              libero et velit interdum.
+              {t('stats.subtitle')}
             </Text>
           </S.Head>
           <S.Body>

@@ -22,7 +22,7 @@
   },
   "about":{
     "title": "How can I help with your project?",
-    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+    "subtitle": "See below some of the services I can offer to help boost your project.",
     "cards":[
       {
         "title": "Web Developer",
@@ -52,7 +52,9 @@
     }
   },
   "stats": {
+    "toptitle": "About me",
     "title": "Check out some of my stats.",
+    "subtitle": "Learn a little more about me with these stats.",
     "items": [
       {
         "title": "Years of experience",
@@ -65,6 +67,28 @@
       {
         "title": "Energy drink cups",
         "number": "234+"
+      }
+    ]
+  },
+  "feedbacks":{
+    "title": "My last feedbacks",
+    "subtitle": "Check out some of the latest feedback on my work",
+    "button": "Get in Touch",
+    "items":[
+      {
+        "name": "Maria Silva",
+        "stars": 4,
+        "feedback": "I hired Pedro for a UI/UX job for an e-commerce and he exceeded most of my expectations, he immersed himself in the project and understood exactly what we needed. I really liked the feedback he gives while working on the project, he really pays attention."
+      },
+      {
+        "name": "Diogo Silva",
+        "stars": 5,
+        "feedback": "I hired you to make some improvements to an existing software in C++ and I was very impressed with your work. You were able to quickly understand the existing code and implement the necessary improvements without affecting the overall functioning of the software. In addition, the new user interface you created is much more intuitive and user-friendly, making the software more accessible for our users. I was very satisfied with your work and would recommend you to anyone looking for a skilled software developer."
+      },
+      {
+        "name": "Luiza Batista",
+        "stars": 4,
+        "feedback": "I hired you to develop the front-end of an NFT website for my company and I was very pleased with your speed and proactivity in the job. You were able to deliver the front-end before the deadline and always made yourself available to clarify my doubts and make the necessary changes to meet my expectations."
       }
     ]
   }

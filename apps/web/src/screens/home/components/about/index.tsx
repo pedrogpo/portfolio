@@ -7,6 +7,7 @@ import { useTranslation } from 'next-i18next'
 
 export default function About() {
   const { t } = useTranslation('common')
+
   const title = t('about.title').split(' ')
   const lastWord = title[title.length - 1].replace('?', '').replace('.', '')
   const textWithoutFinalWord = t('about.title')

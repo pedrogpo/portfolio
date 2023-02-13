@@ -30,7 +30,7 @@ export const Content = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 0.375px;
+  gap: 0.375rem;
 `
 
 export const Stars = styled.div`

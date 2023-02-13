@@ -22,7 +22,7 @@
   },
   "about":{
     "title": "Como posso ajudar no seu projeto?",
-    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+    "subtitle": "Veja abaixo alguns dos serviços que posso oferecer para ajudar a impulsionar o seu projeto",
     "cards":[
       {
         "title": "Desenvolvedor web",
@@ -47,7 +47,9 @@
     }
   },
   "stats": {
+    "toptitle": "Sobre mim",
     "title": "Confira algumas das minhas estatísticas.",
+    "subtitle": "Saiba um pouco mais sobre mim com essas estatísticas.",
     "items": [
       {
         "title": "Anos de experiência",
@@ -60,6 +62,28 @@
       {
         "title": "Copos de energético",
         "number": "234+"
+      }
+    ]
+  },
+  "feedbacks":{
+    "title": "Meus últimos feedbacks",
+    "subtitle": "Confira alguns dos últimos feedbacks do meu trabalho.",
+    "button": "Entre em contato",
+    "items":[
+      {
+        "name": "Maria Silva",
+        "stars": 4,
+        "feedback": "Contratei o Pedro para um trabalho de UI/UX de um e-commerce e ele superou a maioria das minhas expectativas, ele mergulhou no projeto e entendeu exatamente o que precisavamos. Gostei muito dos feedbacks que ele dá enquanto faz o projeto, ele realmente dá atenção."
+      },
+      {
+        "name": "Diogo Silva",
+        "stars": 5,
+        "feedback": "Contratei você para fazer algumas melhorias em um software existente em C++ e fiquei muito impressionado com o seu trabalho. Você foi capaz de entender rapidamente o código existente e implementar as melhorias necessárias sem afetar o funcionamento geral do software. Além disso, a nova interface do usuário que você criou é muito mais intuitiva e fácil de usar, tornando o software mais acessível para nossos usuários. Fiquei muito satisfeito com o seu trabalho e recomendaria você para qualquer pessoa que esteja procurando um desenvolvedor de software habilidoso."
+      },
+      {
+        "name": "Luiza Batista",
+        "stars": 4,
+        "feedback": "Contratei você para desenvolver o front-end de um site de NFT para minha empresa e fiquei muito satisfeita com a sua agilidade e proatividade no trabalho. Você conseguiu entregar o front-end antes do prazo e sempre se mostrou disponível para esclarecer minhas dúvidas e fazer as alterações necessárias para atender às minhas expectativas."
       }
     ]
   }

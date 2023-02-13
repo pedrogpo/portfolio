@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Container } from 'react-bootstrap'
 import { BiHeart } from 'react-icons/bi'
-import { FaLinkedin, FaGithubSquare } from 'react-icons/fa'
+import { FaLinkedin, FaGithubSquare, FaLinkedinIn, FaGithub } from 'react-icons/fa'
 import { Text } from '~/components/atoms'
 import * as S from './styles'
 
@@ -25,10 +25,10 @@ export default function Footer() {
               href="https://www.linkedin.com/in/pedrogpo/"
               rel="noreferrer"
             >
-              <FaLinkedin size={28} />
+              <FaLinkedinIn size={28} />
             </a>
             <a target="_blank" href="https://github.com/pedrogpo" rel="noreferrer">
-              <FaGithubSquare size={28} />
+              <FaGithub size={28} />
             </a>
           </S.ContentRight>
         </S.Content>
