@@ -148,16 +148,19 @@
       },
       {
         "title": "Slap",
-        "description":"Development of the website (Front/Back end) & UI/UX",
+        "description":"Development of the website (Front/Back end) and the software & UI/UX",
         "button": "Take a look",
         "button_redirect": "https://slapp.in",
-        "techs":"PHP, Bootstrap, Payment Gateways, Figma, unique systems.",
+        "techs":"PHP, Bootstrap, Payment Gateways, GoLang, NextJS, Figma, unique systems...",
         "images": [
           {
             "url": "/portfolio/slappin/site1.png"
           },
           {
             "url": "/portfolio/slappin/site2.png"
+          },
+          {
+            "url": "/portfolio/slappin/software1.png"
           }
         ]
       }

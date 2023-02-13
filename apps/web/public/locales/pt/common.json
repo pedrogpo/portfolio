@@ -128,8 +128,8 @@
       },
       {
         "title": "6Collection",
-        "description":"Development of the website (E-Commerce) & UI/UX",
-        "button": "Take a look",
+        "description":"Desenvolvimento do website (E-Commerce) & UI/UX",
+        "button": "Dê uma olhada",
         "button_redirect": "https://dev.6collection.com.br",
         "techs":"PHP, Bootstrap, Payment Gateways, Figma, Cinema 4D, After Effects and some other stuff.",
         "images": [
@@ -143,16 +143,19 @@
       },
       {
         "title": "Slap",
-        "description":"Development of the website (Front/Back end) & UI/UX",
-        "button": "Take a look",
+        "description":"Desenvolvimento do website (Front/Back end) e do software & UI/UX",
+        "button": "Dê uma olhada",
         "button_redirect": "https://slapp.in",
-        "techs":"PHP, Bootstrap, Payment Gateways, Figma, unique systems.",
+        "techs":"PHP, Bootstrap, Payment Gateways, GoLang, NextJS, Figma, sistemas únicos...",
         "images": [
           {
             "url": "/portfolio/slappin/site1.png"
           },
           {
             "url": "/portfolio/slappin/site2.png"
+          },
+          {
+            "url": "/portfolio/slappin/software1.png"
           }
         ]
       }
