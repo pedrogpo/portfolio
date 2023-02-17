@@ -3,6 +3,7 @@ import { ColorThemeType } from '~/core/constants/theme'
 import * as S from './styles'
 
 type InputAppProps = InputHTMLAttributes<HTMLInputElement> & {
+  as?: 'textarea' | 'input'
   sizeOf?: 'm' | 'l'
   iconPos?: 'left' | 'right'
   icon?: JSX.Element
@@ -16,6 +17,7 @@ type InputAppProps = InputHTMLAttributes<HTMLInputElement> & {
 const Input = forwardRef<HTMLInputElement, InputAppProps>(
   (
     {
+      as = 'input',
       sizeOf = 'm',
       iconPos = 'left',
       icon,
@@ -40,6 +42,7 @@ const Input = forwardRef<HTMLInputElement, InputAppProps>(
           </S.InputIcon>
         )}
         <S.Input
+          as={as}
           background={background}
           iconPos={iconPos}
           iconSize={iconSize}

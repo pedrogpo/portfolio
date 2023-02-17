@@ -44,12 +44,14 @@ export default function HomeScreen({}: any) {
         }}
       />
       <Header />
-      <Hero />
-      <About />
-      <Stats />
-      <Portfolio />
-      <Feedbacks />
-      <Contact />
+      <main>
+        <Hero />
+        <About />
+        <Stats />
+        <Portfolio />
+        <Feedbacks />
+        <Contact />
+      </main>
       <Footer />
     </>
   )

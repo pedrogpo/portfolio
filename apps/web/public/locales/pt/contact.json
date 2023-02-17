@@ -1,0 +1,36 @@
+{
+  "seo": {
+    "title":"Pedro Guilherme - Developer, UI/UX & Business/SEO Strategist",
+    "description":"Boost your online presence with a multi-talented Web/Software developer, UI/UX designer who can provide top-notch Business/SEO improvements.",
+    "canonical":"https://pedrogui.com/en"
+  },
+  "contact":{
+    "title": "Entre em contato",
+    "subtitle": "Estou disponível para trabalho. Vamos falar sobre seu projeto.",
+    "contact_text": "Ou se preferir, você pode enviar uma mensagem diretamente para meu email.",
+    "form":{
+      "title": "Estou interessado em...",
+      "items":[
+        {
+          "text": "Design UI/UX"
+        },
+        {
+          "text": "Website"
+        },
+        {
+          "text": "Software"
+        },
+        {
+          "text": "Business"
+        },
+        {
+          "text": "SEO"
+        },
+        {
+          "text": "Outro"
+        }
+      ],
+      "button": "Enviar mensagem"
+    }
+  }
+}

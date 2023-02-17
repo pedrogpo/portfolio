@@ -166,5 +166,9 @@
     "title": "Entre em contato comigo",
     "subtitle": "Tô sempre aberto para novas mensagens. Se você tiver uma dúvida, uma ideia de projeto, me envie uma mensagem!",
     "button": "Entre em contato"
+  },
+  "footer":{
+    "text_one": "© Todos os Diretos Reservados - Pedro Guilherme",
+    "text_two": "Feito por mim com"
   }
 }

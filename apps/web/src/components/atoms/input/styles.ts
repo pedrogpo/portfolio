@@ -5,30 +5,28 @@ import { ColorThemeType } from '~/core/constants/theme'
 const sizeVariants = (size: string) => {
   return {
     m: css`
-      padding: 1rem 0.85rem;
+      padding: 1rem 0;
       font-size: ${({ theme }) => theme.typography.text.s};
       font-weight: ${({ theme }) => theme.typography.weight.semibold};
     `,
     l: css`
-      padding: 1.1rem 1.75rem;
+      padding: 1.1rem 0;
       font-size: ${({ theme }) => theme.typography.text.m};
       font-weight: ${({ theme }) => theme.typography.weight.semibold};
     `,
   }[size]
 }
-
-interface InputProps extends InputHTMLAttributes<HTMLInputElement>, InputIconProps {
-  background: ColorThemeType
-}
-
 interface InputIconProps {
   sizeOf: 'm' | 'l'
   iconPos: 'left' | 'right'
   iconSize?: number
 }
 
+interface InputProps extends InputHTMLAttributes<HTMLInputElement>, InputIconProps {
+  background: ColorThemeType
+}
+
 export const Input = styled.input<InputProps>`
-  border-radius: 10px;
   width: 100%;
   outline: none;
   border: 1px solid transparent;
@@ -36,6 +34,7 @@ export const Input = styled.input<InputProps>`
   ${({ sizeOf }) => sizeVariants(sizeOf)}
 
   ${({ iconPos, sizeOf, iconSize }) =>
+    iconSize &&
     iconPos === 'left' &&
     `padding-left: calc(2.15rem + ${
       iconSize ? `${iconSize}px` : sizeOf === 'm' ? '22px' : '24px'
@@ -51,13 +50,15 @@ export const Input = styled.input<InputProps>`
     cursor: text;
   }
 
+  border-bottom: 1px solid ${({ theme }) => theme.colors.gray_700};
+
   &::placeholder {
     color: ${({ theme }) => theme.colors.gray_700};
     font-weight: ${({ theme }) => theme.typography.weight.medium};
   }
 
   &:focus {
-    border: 1px solid ${({ theme }) => theme.colors.gray_800};
+    border-bottom: 1px solid ${({ theme }) => theme.colors.gray_400};
   }
 
   transition: 0.3s ease all;

@@ -1,6 +1,6 @@
 import { GetStaticProps } from 'next'
-import HomeScreen from '~/screens/home'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import ContactScreen from '~/screens/contact'
 
 type Props = {
   // Add custom props here
@@ -8,8 +8,8 @@ type Props = {
 
 export const getStaticProps: GetStaticProps<Props> = async ({ locale }) => ({
   props: {
-    ...(await serverSideTranslations(locale ?? 'en', ['common'])),
+    ...(await serverSideTranslations(locale ?? 'en', ['common', 'contact'])),
   },
 })
 
-export default HomeScreen
+export default ContactScreen

@@ -54,7 +54,8 @@ export default function Header() {
           </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end gap-4">
-            <Link href="/" locale={changeTo}>
+            {/* href to current page */}
+            <Link href={`${router.asPath}`} locale={changeTo}>
               <S.LanguageSelector className="mb-4 mb-lg-0 mt-lg-0 mt-4">
                 {i18n.language == 'en' ? (
                   <>
@@ -96,7 +97,9 @@ export default function Header() {
               </li>
             </Nav>
             <div className="d-flex flex-wrap gap-3 mt-md-0 mt-3">
-              <Button boxShadow>{t('navbar.button')}</Button>
+              <Link href="/contact">
+                <Button boxShadow>{t('navbar.button')}</Button>
+              </Link>
             </div>
           </Navbar.Collapse>
         </Navbar>

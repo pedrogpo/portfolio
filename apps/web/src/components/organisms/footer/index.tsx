@@ -5,8 +5,11 @@ import { BiHeart } from 'react-icons/bi'
 import { FaLinkedin, FaGithubSquare, FaLinkedinIn, FaGithub } from 'react-icons/fa'
 import { Text } from '~/components/atoms'
 import * as S from './styles'
+import { useTranslation } from 'next-i18next'
 
 export default function Footer() {
+  const { t, i18n } = useTranslation('common')
+
   return (
     <S.Footer>
       <Container>
@@ -15,8 +18,9 @@ export default function Footer() {
             {/* logo */}
             <Image src="/logo.svg" alt="Logo" width={40} height={40} quality={45} />
             <Text size="l" weight="medium" color="gray_400">
-              © Todos os Diretos Reservados - Pedro Guilherme <br /> Made by me with{' '}
-              <BiHeart size={18} />
+              {t('footer.text_one')}
+              <br />
+              {t('footer.text_two')} <BiHeart size={18} />
             </Text>
           </S.ContentLeft>
           <S.ContentRight>
