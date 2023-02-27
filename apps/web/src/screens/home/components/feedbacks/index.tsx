@@ -3,6 +3,8 @@ import { Button, Text, Title } from '~/components/atoms'
 import Card from './card'
 import * as S from './styles'
 import { useTranslation } from 'next-i18next'
+import Link from 'next/link'
+import { Anchor } from '~/components/atoms/anchor'
 
 export default function Feedbacks() {
   const { t } = useTranslation('common')
@@ -10,6 +12,7 @@ export default function Feedbacks() {
 
   return (
     <S.Feedbacks>
+      <Anchor id="feedbacks-anchor" />
       <S.FeedbacksHead>
         <Title as="h2" size="l" weight="bold" color="gray_100">
           {t('feedbacks.title')}
@@ -28,9 +31,11 @@ export default function Feedbacks() {
         </Row>
       </Container>
       <S.FeedbacksBottom>
-        <Button boxShadow size="xl" weight="bold" padding=".85rem 2rem">
-          {t('feedbacks.button')}
-        </Button>
+        <Link href="/contact">
+          <Button boxShadow size="xl" weight="bold" padding=".85rem 2rem">
+            {t('feedbacks.button')}
+          </Button>
+        </Link>
       </S.FeedbacksBottom>
     </S.Feedbacks>
   )

@@ -4,11 +4,12 @@ import { Col, Container, Row } from 'react-bootstrap'
 import { Button, Text, Title } from '~/components/atoms'
 import * as S from './styles'
 import { useTranslation } from 'next-i18next'
+import Link from 'next/link'
 
 export default function Hero() {
   const { t } = useTranslation('common')
   return (
-    <S.Hero>
+    <S.Hero id="hero">
       <Container>
         <Row className="align-items-center">
           <Col lg={6}>
@@ -22,9 +23,11 @@ export default function Hero() {
               <Text size="l" weight="medium" color="gray_400">
                 {t('hero.subtitle')}
               </Text>
-              <Button className="me-4" size="m" weight="bold" padding=".85rem 2rem">
-                {t('hero.button')}
-              </Button>
+              <Link href="#about-anchor" scroll={false}>
+                <Button className="me-4" size="m" weight="bold" padding=".85rem 2rem">
+                  {t('hero.button')}
+                </Button>
+              </Link>
               <Text as="span" weight="medium" size="m" color="gray_300">
                 {t('hero.buttontext')}
               </Text>

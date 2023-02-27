@@ -6,6 +6,8 @@ import { Button, Text, Title } from '~/components/atoms'
 import { Carousel } from '~/components/molecules'
 import * as S from './styles'
 import { useTranslation } from 'next-i18next'
+import Link from 'next/link'
+import { Anchor } from '~/components/atoms/anchor'
 
 export default function Portfolio() {
   const { t } = useTranslation('common')
@@ -14,6 +16,7 @@ export default function Portfolio() {
 
   return (
     <S.Portfolio>
+      <Anchor id="portfolio-anchor" />
       <Container>
         <S.PortfolioHeader>
           <Title as="h2" size="l" weight="bold" color="gray_100">
@@ -75,9 +78,11 @@ export default function Portfolio() {
           ))}
         </Carousel>
         <S.PortfolioBottom>
-          <Button boxShadow size="l" weight="bold" padding=".75rem 2rem">
-            {t('portfolio.button')}
-          </Button>
+          <Link href="/contact">
+            <Button boxShadow size="l" weight="bold" padding=".75rem 2rem">
+              {t('portfolio.button')}
+            </Button>
+          </Link>
         </S.PortfolioBottom>
       </Container>
       <S.PortfolioUnderlayLeft>

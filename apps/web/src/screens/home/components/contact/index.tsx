@@ -4,6 +4,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import { Button, Text, Title } from '~/components/atoms'
 import * as S from './styles'
 import { useTranslation } from 'next-i18next'
+import Link from 'next/link'
 
 export default function Contact() {
   const { t } = useTranslation('common')
@@ -27,9 +28,11 @@ export default function Contact() {
                   </Text>
                 </S.ContactContentBody>
                 <S.ContactContentBottom>
-                  <Button padding=".85rem 2rem" size="xl" weight="bold" fill="white">
-                    {t('contact.button')}
-                  </Button>
+                  <Link href="/contact">
+                    <Button padding=".85rem 2rem" size="xl" weight="bold" fill="white">
+                      {t('contact.button')}
+                    </Button>
+                  </Link>
                 </S.ContactContentBottom>
               </S.ContactContent>
             </Col>

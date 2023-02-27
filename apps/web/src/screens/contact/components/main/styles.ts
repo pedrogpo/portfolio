@@ -25,7 +25,7 @@ export const ContentHead = styled.div`
 
 export const ContentBody = styled.div``
 
-export const FormContainer = styled.div`
+export const FormContainer = styled.form`
   background-color: ${({ theme }) => theme.colors.background_800};
   border-radius: 10px;
   padding: 3rem;

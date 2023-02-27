@@ -30,6 +30,9 @@
           "text": "Outro"
         }
       ],
+      "name": "Seu nome",
+      "email": "Seu e-mail",
+      "message": "Fale mais sobre seu projeto.",
       "button": "Enviar mensagem"
     }
   }

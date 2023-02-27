@@ -4,6 +4,8 @@ import { Button, Text, Title } from '~/components/atoms'
 import Card from './card'
 import * as S from './styles'
 import { useTranslation } from 'next-i18next'
+import Link from 'next/link'
+import { Anchor } from '~/components/atoms/anchor'
 
 export default function About() {
   const { t } = useTranslation('common')
@@ -17,6 +19,7 @@ export default function About() {
 
   return (
     <S.About>
+      <Anchor id="about-anchor" />
       <Container>
         <Row>
           <Col>
@@ -80,9 +83,11 @@ export default function About() {
                   {t('about.contact.subtitle')}
                 </Text>
               </S.ContactCardHead>
-              <Button boxShadow padding=".5rem 1rem" size="s" weight="semibold">
-                {t('about.contact.button')}
-              </Button>
+              <Link href="/contact">
+                <Button boxShadow padding=".5rem 1rem" size="s" weight="semibold">
+                  {t('about.contact.button')}
+                </Button>
+              </Link>
             </S.ContactCard>
           </Col>
         </Row>

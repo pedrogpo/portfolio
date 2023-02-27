@@ -81,17 +81,17 @@ export default function Header() {
                 </Link>
               </li>
               <li className="nav-link active">
-                <Link href="#services" className="nav-link" scroll={false}>
+                <Link href="#about-anchor" className="nav-link" scroll={false}>
                   {t('navbar.links.1.name')}
                 </Link>
               </li>
               <li className="nav-link active">
-                <Link href="#portfolio" className="nav-link" scroll={false}>
+                <Link href="#portfolio-anchor" className="nav-link" scroll={false}>
                   {t('navbar.links.2.name')}
                 </Link>
               </li>
               <li className="nav-link active">
-                <Link href="#feedbacks" className="nav-link" scroll={false}>
+                <Link href="#feedbacks-anchor" className="nav-link" scroll={false}>
                   {t('navbar.links.3.name')}
                 </Link>
               </li>
